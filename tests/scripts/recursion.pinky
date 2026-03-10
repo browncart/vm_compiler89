@@ -1,0 +1,10 @@
+func recurse(a) 
+	if (a >= 1) then 
+		recurse(a - 1) 
+		println 'a is greater than 1: ' + a 
+	end 
+end 
+
+func main()
+	recurse(2)
+end

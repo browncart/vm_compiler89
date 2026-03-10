@@ -1,0 +1,9 @@
+func main()
+	a := 2 
+	b := 1 
+	
+	if (a == b) then 
+		println 'if' 
+		else println 'else' 
+	end
+end

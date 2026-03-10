@@ -1,0 +1,7 @@
+func thing(a) 
+	println a 
+end 
+
+func main()
+	thing(1 + 3)
+end

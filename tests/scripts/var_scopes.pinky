@@ -1,0 +1,25 @@
+a := "A global"
+b := "A global + B global"
+
+func thing(a) 
+	b := a + " + B defined in function!"
+	println a
+	println b
+
+	if (a == "Function Param A") then
+		a := "Arg A redefined in func if stmt"
+	end
+
+	println a
+	println b
+end
+
+func main() 
+	println a
+	println b
+
+	thing("Function Param A")
+	
+	println a
+	println b
+end

@@ -1,0 +1,10 @@
+func main()
+	for i := 1, 10 do 
+		for j := 1, 10 do 
+			if (j % 2) == 0 then 
+				println 'j: ' + j 
+			end 
+		end 
+		println 'i: ' + i 
+	end
+end

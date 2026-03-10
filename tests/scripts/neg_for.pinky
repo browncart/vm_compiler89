@@ -1,0 +1,5 @@
+func main()
+	for i := 10, 0 do 
+		println i 
+	end
+end

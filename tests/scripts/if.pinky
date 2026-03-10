@@ -1,0 +1,8 @@
+func main()
+	a := 2 
+	b := 1 
+	
+	if (a > b) then 
+		println 'a > b' 
+	end
+end

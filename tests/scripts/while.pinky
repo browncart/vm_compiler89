@@ -1,0 +1,8 @@
+func main()
+	a := 100 
+	
+	while a > 0 do 
+		println a 
+		a := a - 1 
+	end
+end
